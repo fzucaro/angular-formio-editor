@@ -28,7 +28,6 @@ export class AppComponent {
       json: {},
       renderer: {
         input: {
-          src: 'http://localhost:8383/api/v1/documents',
           renderOptions: { breadcrumbSettings: { clickable: true } }
         },
         submissionPanel: {

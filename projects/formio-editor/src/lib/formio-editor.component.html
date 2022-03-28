@@ -48,7 +48,7 @@
           [applyDisabled]="!jsonEditorChanged || jsonEditorErrors.length !== jsonEditorWarningCounter"
           [alertOpen]="jsonEditorErrors.length !== jsonEditorWarningCounter"
       ></json-change-panel>
-      <json-editor #jsoneditor 
+      <json-editor #jsoneditor
         [options]="jsonEditorOptions"
         (dataChange)="onJsonEditorChange($event); options?.json?.output?.dataChange ? options.json.output.dataChange($event) : undefined"
         (dataError)="onJsonEditorError($event); options?.json?.output?.dataError ? options.json.output.dataError($event) : undefined"
@@ -66,7 +66,7 @@
     <div class="m-2">
       <formio *ngIf="activeTab=='renderer'"
         [form]="form"
-        [submission]="options?.renderer?.input?.submission"
+        [submission]="options?.renderer?.input?.submission || {data:{}}"
         [src]="options?.renderer?.input?.src"
         [url]="options?.renderer?.input?.url"
         [service]="options?.renderer?.input?.service"
