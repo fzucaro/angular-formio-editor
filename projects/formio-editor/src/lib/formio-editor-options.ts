@@ -1,6 +1,6 @@
 import { EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
-import { FormioService, FormioOptions, FormioBaseComponent, FormioRefreshValue } from 'angular-formio';
+import { FormioService, FormioOptions, FormioBaseComponent, FormioRefreshValue } from '@formio/angular';
 import { JsonEditorOptions } from './json-editor/json-editor-shapes';
 
 export type FormioEditorTab = 'builder' | 'json' | 'renderer';

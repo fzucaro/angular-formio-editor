@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormioModule, FormioAppConfig } from 'angular-formio';
+import { FormioModule, FormioAppConfig } from '@formio/angular';
 import { FormioEditorModule } from '@davebaol/angular-formio-editor';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { AppComponent } from './app.component';

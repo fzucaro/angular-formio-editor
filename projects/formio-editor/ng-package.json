@@ -7,7 +7,8 @@
   "lib": {
     "entryFile": "src/public-api.ts",
     "umdModuleIds": {
-      "angular-formio": "angular-formio",
+      "@formio/angular": "@formio/angular",
+      "formiojs": "formiojs",
       "jsoneditor": "jsoneditor",
       "ngx-bootstrap": "ngx-bootstrap",
       "ngx-bootstrap/alert": "ngx-bootstrap/alert",

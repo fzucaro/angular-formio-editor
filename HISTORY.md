@@ -2,6 +2,10 @@
 
 https://github.com/davebaol/angular-formio-editor
 
+## 2022-03-24, version 0.10.0-snapshot
+- Upgrade Angular 10
+- Upgrade formio 5.2.2
+
 
 ## YYYY-MM-DD, version 0.9.6-snapshot
 
