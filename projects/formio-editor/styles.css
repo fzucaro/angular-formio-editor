@@ -6,3 +6,9 @@
   padding: .375rem .75rem;
   margin-bottom: 0;
 }
+
+ul.list-inline > li  {
+  margin-right: 0.5rem !important;
+  display: inline-block !important;
+}
+
