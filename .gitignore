@@ -44,3 +44,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/projects/formio-editor/node_modules/tslib/
