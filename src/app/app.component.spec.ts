@@ -1,7 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormioModule } from 'angular-formio';
+import { FormioModule } from '@formio/angular';
 import { FormioEditorModule } from '@davebaol/angular-formio-editor';
 import { FormsModule } from '@angular/forms';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';

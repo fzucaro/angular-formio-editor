@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FormioEditorComponent } from './formio-editor.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormioModule } from 'angular-formio';
+import { FormioModule } from '@formio/angular';
 import { FormsModule } from '@angular/forms';
 import { Component, ViewChild } from '@angular/core';
 
