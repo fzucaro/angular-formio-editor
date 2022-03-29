@@ -4,7 +4,7 @@
   "description": "Angular component integrating Form.io builder and renderer with a json editor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davebaol/angular-formio-editor.git"
+    "url": "git+https://https://github.com/fzucaro/angular-formio-editor.git"
   },
   "keywords": [
     "angular",
@@ -18,9 +18,9 @@
   "author": "Davide Sessi <davix7@yahoo.it>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davebaol/angular-formio-editor/issues"
+    "url": "https://github.com/fzucaro/angular-formio-editor/issues"
   },
-  "homepage": "https://github.com/davebaol/angular-formio-editor#readme",
+  "homepage": "https://github.com/fzucaro/angular-formio-editor#readme",
   "peerDependencies": {
     "@angular/common": "~10.2.5",
     "@angular/core": "~10.2.5",
