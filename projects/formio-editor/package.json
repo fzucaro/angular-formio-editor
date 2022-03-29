@@ -1,5 +1,5 @@
 {
-  "name": "@davebaol-csi/angular-formio-editor",
+  "name": "angular-formio-editor",
   "version": "0.10.0-snapshot",
   "description": "Angular component integrating Form.io builder and renderer with a json editor",
   "repository": {
